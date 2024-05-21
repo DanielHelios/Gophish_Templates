@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html data-lt-installed="true"><head>
+	<base href="https://vault.bitwarden.com/#/login"/><meta charset="utf-8"/><meta name="viewport" content="width=1010"/><meta name="theme-color" content="#175DDC"/>
+	<title page-title="">Bitwarden Web Vault</title>
+	<link href="https://vault.bitwarden.com/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+	<link href="https://vault.bitwarden.com/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+	<link href="https://vault.bitwarden.com/images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+	<link color="#175DDC" href="images/safari-pinned-tab.svg" rel="mask-icon"/>
+	<link href="https://vault.bitwarden.com/70501c97b33df95adb32.json" rel="manifest"/>
+    <script defer="defer" src="https://vault.bitwarden.com/theme_head.4cb181fc19f2a308ba73.js"></script>
+	<link href="https://vault.bitwarden.com/app/main.6113610eaf4544914b28.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body class="layout_frontend" style="
+font-family: 'DM Sans', sans-serif;
+font-optical-sizing: auto;
+font-style: normal;"
+>
+    <div class="tw-container tw-mx-auto ng-pristine ng-touched">
+        <div class="tw-mx-auto tw-mt-5 tw-flex tw-max-w-lg tw-flex-col tw-items-center tw-justify-center tw-p-8">
+            <div style="width: 100%;">
+                <img src="" alt="Bitwarden" class="logo logo-themed">
+                <p class="tw-mx-4 tw-mb-4 tw-mt-3 tw-text-center tw-text-xl">
+                    Connectez-vous ou créer un nouveau compte pour accéder à votre coffre sécurisé.
+                </p>
+                <form method="POST" action="https://vault.bitwarden.com/" class="tw-mt-3 tw-rounded-md tw-border tw-border-solid tw-border-secondary-300 tw-bg-background tw-p-6">
+                    <div class="tw-mb-3">
+                        <div class="tw-block tw-mb-6">
+                            <label for="login_input_email" class="tw-mb-1 tw-block tw-font-semibold tw-text-main">
+                                Adresse électronique
+                                <span class="tw-text-xs tw-font-normal">(requis)</span>
+                            </label>
+                            <div class="tw-flex">
+                                <input autofocus required type="email" name="login_input_email" id="login_input_email" class="ng-pristine [&:is(input,textarea):read-only]:tw-bg-secondary-100 disabled:tw-bg-secondary-100 first:tw-rounded-l focus:tw-border-primary-700 focus:tw-outline-none focus:tw-ring-1 focus:tw-ring-inset focus:tw-ring-primary-700 focus:tw-z-10 last:tw-rounded-r tw-bg-background-alt tw-block tw-border tw-border-solid tw-placeholder-text-muted tw-px-3 tw-py-1.5 tw-rounded-none tw-text-main tw-w-full ng-touched">
+                            </div>
+                        </div>
+                        <div class="tw-block tw-mb-6">
+                            <label for="login_input_password" class="tw-mb-1 tw-block tw-font-semibold tw-text-main">
+                                Mot de passe principal
+                                <span class="tw-text-xs tw-font-normal">(requis)</span>
+                            </label>
+                            <div class="tw-flex">
+                                <input required type="password" name="login_input_password" id="login_input_password" class="ng-pristine [&:is(input,textarea):read-only]:tw-bg-secondary-100 disabled:tw-bg-secondary-100 first:tw-rounded-l focus:tw-border-primary-700 focus:tw-outline-none focus:tw-ring-1 focus:tw-ring-inset focus:tw-ring-primary-700 focus:tw-z-10 last:tw-rounded-r tw-bg-background-alt tw-block tw-border tw-border-solid tw-placeholder-text-muted tw-px-3 tw-py-1.5 tw-rounded-none tw-text-main tw-w-full ng-touched">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-mb-3 tw-flex tw-items-start">
+                        <div class="tw-mb-0 tw-block tw-mb-6">
+                            <label class="tw-cursor-pointer tw-inline-flex tw-items-baseline tw-mb-0 tw-select-none tw-transition">
+                                <input type="checkbox" bitcheckbox="" formcontrolname="rememberEmail" class="[&amp;:not(:indeterminate)]:checked:before:tw-mask-image-[var(--mask-image)] [&amp;>label:hover]:checked:tw-bg-primary-700 [&amp;>label:hover]:checked:tw-border-primary-700 [&amp;>label:hover]:indeterminate:tw-bg-primary-700 [&amp;>label:hover]:indeterminate:tw-border-primary-700 [&amp;>label]:tw-border-2 before:tw-absolute before:tw-block before:tw-content-[''] before:tw-inset-0 checked:before:tw-bg-text-contrast checked:before:tw-mask-position-[center] checked:before:tw-mask-repeat-[no-repeat] checked:disabled:before:tw-bg-text-muted checked:disabled:tw-bg-secondary-100 checked:disabled:tw-border-secondary-100 checked:hover:tw-bg-primary-700 checked:hover:tw-border-primary-700 checked:tw-bg-primary-600 checked:tw-border-primary-600 disabled:tw-bg-secondary-100 disabled:tw-border disabled:tw-cursor-auto focus-visible:tw-ring-2 focus-visible:tw-ring-offset-2 focus-visible:tw-ring-primary-700 hover:tw-border-2 indeterminate:before:tw-bg-text-contrast indeterminate:before:tw-mask-image-[var(--indeterminate-mask-image)] indeterminate:before:tw-mask-position-[center] indeterminate:before:tw-mask-repeat-[no-repeat] indeterminate:disabled:before:tw-bg-text-muted indeterminate:disabled:tw-bg-secondary-100 indeterminate:disabled:tw-border-secondary-100 indeterminate:hover:tw-bg-primary-700 indeterminate:hover:tw-border-primary-700 indeterminate:tw-bg-primary-600 indeterminate:tw-border-primary-600 tw-appearance-none tw-border tw-border-secondary-600 tw-border-solid tw-bottom-[-1px] tw-cursor-pointer tw-flex-none tw-h-3.5 tw-inline-block tw-mr-1.5 tw-outline-none tw-relative tw-rounded tw-transition tw-w-3.5 ng-untouched ng-pristine ng-valid" style="--mask-image: url('data:image/svg+xml,%3Csvg class=&quot;svg&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;8&quot; height=&quot;8&quot; viewBox=&quot;0 0 10 10&quot;%3E%3Cpath d=&quot;M0.5 6.2L2.9 8.6L9.5 1.4&quot; fill=&quot;none&quot; stroke=&quot;white&quot; stroke-width=&quot;2&quot;%3E%3C/path%3E%3C/svg%3E'); --indeterminate-mask-image: url('data:image/svg+xml,%3Csvg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;13&quot; height=&quot;13&quot; fill=&quot;none&quot; viewBox=&quot;0 0 13 13&quot;%3E%3Cpath stroke=&quot;%23fff&quot; stroke-width=&quot;2&quot; d=&quot;M2.5 6.5h8&quot;/%3E%3C/svg%3E%0A');">
+                                <span class="tw-flex-col tw-font-semibold tw-inline-flex tw-text-main">
+                                    <span>
+                                        Se souvenir du courriel
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="tw-mb-3">
+                        <button type="submit" class="tw-w-full !tw-text-contrast disabled:!tw-text-contrast/60 disabled:tw-bg-clip-padding disabled:tw-bg-primary-600/60 disabled:tw-border-primary-600/60 disabled:tw-cursor-not-allowed focus-visible:tw-ring focus-visible:tw-ring-offset-2 focus-visible:tw-ring-primary-700 focus-visible:tw-z-10 focus:tw-outline-none hover:tw-bg-primary-700 hover:tw-border-primary-700 hover:tw-no-underline tw-bg-primary-600 tw-border tw-border-primary-600 tw-border-solid tw-font-semibold tw-inline-block tw-px-3 tw-py-1.5 tw-rounded tw-text-center tw-transition">Se connecter</button>
+                    </div>
+                    <hr>
+                    <p class="tw-m-0 tw-text-sm">
+                        Vous êtes nouveau ici ?
+                        <a href="https://vault.bitwarden.eu/#/register">Créez un compte</a>
+                    </p>
+                </form>
+                <div class="container my-5 text-muted text-center" style="width: 100%;">
+                    <div class="tw-mb-1">
+                        <div>
+                            Serveur:
+                            <a href="#/login" aria-expanded="false" aria-haspopup="menu" role="button">
+                                <b>bitwarden.com</b>
+                            </a>
+                        </div>
+                    </div>
+                    © 2024 Bitwarden Inc. <br>
+                    Version 2024.5.0
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

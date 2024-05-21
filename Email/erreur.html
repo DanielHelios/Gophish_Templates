@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<p>Bonjour {{.FirstName}},</p>
+
+<p>Le d&eacute;partement informatique a proc&eacute;d&eacute; hier soir &agrave; une migration du serveur de messagerie et a rencontr&eacute; une erreur avec plusieurs comptes de messagerie.&nbsp;Il se trouve que votre compte {{.Email}} est l&#39;un d&#39;entre eux.</p>
+
+<p>Nous avons tent&eacute; de r&eacute;soudre ce probl&egrave;me et pensons l&#39;avoir r&eacute;solu.</p>
+
+<p>Si votre courrier &eacute;lectronique fonctionne parfaitement, veuillez nous le faire savoir en vous rendant sur ce <a href="{{.URL}}">site web s&eacute;curis&eacute;</a> et en validant le fonctionnement de votre adresse &eacute;lectronique.</p>
+
+<p>Merci de votre collaboration rapide.</p>
+{{.Tracker}}</body>
+</html>
